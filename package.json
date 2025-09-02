@@ -1,0 +1,27 @@
+{
+  "name": "abax-infosimples",
+  "version": "1.0.0",
+  "description": "API para consultas no ECAC via InfoSimples",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "infosimples",
+    "ecac",
+    "dctf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "aes-everywhere": "^1.0.0",
+    "axios": "^1.11.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  }
+}
