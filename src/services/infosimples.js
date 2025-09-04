@@ -12,7 +12,7 @@ export async function consultaDctf(params) {
   const query = {
     token: config.infosimples.token,
     timeout: 600,
-    ignore_site_receipt: 0,
+    ignore_site_receipt: "0",
     ...params,
   };
 
@@ -56,7 +56,7 @@ export async function consultaCNPJ(cnpj) {
   const query = {
     token: config.infosimples.token,
     timeout: 600,
-    ignore_site_receipt: 0,
+    ignore_site_receipt: "0",
     cnpj: cnpj,
   };
 

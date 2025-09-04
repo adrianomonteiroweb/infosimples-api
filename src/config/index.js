@@ -1,4 +1,5 @@
 import dotenv from "dotenv";
+
 dotenv.config();
 
 export default {
@@ -8,5 +9,4 @@ export default {
       "https://api.infosimples.com/api/v2/consultas",
     token: process.env.TOKEN_INFOSIMPLES,
   },
-  encryptionKey: process.env.CHAVE_CRIPTOGRAFIA,
 };
